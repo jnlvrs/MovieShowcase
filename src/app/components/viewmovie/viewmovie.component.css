@@ -1,43 +1,43 @@
-
-
-
-#header {
+div{
+  text-align:center;
+}
+.m-content {
+    background-color: #400A14;
+    padding-bottom: 8px;
+}
+.m-title {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-#header img {
-    max-width: 300px;
-    border: 1px solid black;
-    box-shadow: 2px 5px 2px rgb(166, 166, 166);
+    background-color: #A62929;
+    color:#D9AB73
 }
-h3{
-    background-color: rgb(210, 203, 216);
-    padding: 4px;
-    border: 1px dotted #e6eff6;
-    margin-right: 600px;
-    margin-left: 600px;
-}
-h5{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-}
-p{
-    padding-right: 300px;
-    padding-left: 300px;
+.m-list {
+    color:#A62929;
 }
 
-
-router-outlet {
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
+a:link {
+  text-decoration: none;
+  color: #8C1127;
 }
 
+a:visited {
+  text-decoration: none;
+  color: #8C1127;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #D97777;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #D9AB73;
+}
 .btn {
 	position: relative;
-	display: inline-block;
-	margin-top: 25px;
-	margin-right: 5px;
-	padding: 0.5%;
+	margin-top: 8px;
+  margin-right: 5px;
+	padding: 8px;
 
 	overflow: hidden;
 
@@ -99,4 +99,8 @@ router-outlet {
 	padding-top: 120%;
 
 	transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+}
+
+.m-a-info {
+  background-color:#400A14;
 }

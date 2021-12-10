@@ -1,0 +1,31 @@
+<div class="m-container">
+    <div class="m-container-inner">
+        <h3> Add a Movie</h3>
+        <form (ngSubmit)="updateMovie()">
+            <label>Title: </label>
+            <input type="text" name="title" [(ngModel)]="editMovie.title">
+            <br>
+            <label>Director: </label>
+            <input type="text" name="director" [(ngModel)]="editMovie.director">
+            <br>
+            <label for="rating" >Rating:</label>
+            <select id="rating" name="rating" [(ngModel)]="editMovie.rating">
+                <option value="G" selected>G</option>
+                <option value="PG">PG</option>
+                <option value="PG-13">PG-13</option>
+                <option value="R" >R</option>
+            </select>
+            <br>
+            <label>Length: </label>
+            <input type="text" name="length" [(ngModel)]="editMovie.length">
+            <br>
+            <label>Link to Information </label>
+            <input type="text" placeholder="optional" name="infoUrl" [(ngModel)]="editMovie.infoUrl">
+            <br>
+            <label>Image link </label>
+            <input type="text" placeholder="optional" name="imgUrl" [(ngModel)]="editMovie.imgUrl">
+            <br>
+            <button type="submit">Update</button>
+        </form>
+    </div>
+</div>

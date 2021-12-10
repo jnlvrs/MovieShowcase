@@ -1,0 +1,8 @@
+<div class="m-content">    
+    <h1 class="m-title">Movie Titles</h1>
+    <ul class="m-list" >
+        <li *ngFor="let movie of listOfMovies">
+            <a routerLink="/movielist/{{movie.id}}"> Movie Title: {{movie.title}}</a> (Id#{{movie.id}})
+        </li>
+    </ul>
+</div>

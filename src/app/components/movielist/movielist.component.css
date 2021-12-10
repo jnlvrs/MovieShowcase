@@ -1,0 +1,32 @@
+.m-content {
+    background-color: #400A14;
+    padding-bottom: 8px;
+}
+.m-title {
+    text-align: center;
+    background-color: #A62929;
+    color:#D9AB73
+}
+.m-list {
+    color:#A62929;
+}
+
+a:link {
+  text-decoration: none;
+  color: #8C1127;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #8C1127;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #D97777;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #D9AB73;
+}

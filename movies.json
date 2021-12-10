@@ -1,0 +1,49 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Arrival 2",
+      "director": "Denis Villeneuve",
+      "rating": "PG",
+      "length": 116,
+      "infoUrl": "https://www.imdb.com/title/tt2543164/?ref_=ttls_li_tt",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/d/df/Arrival%2C_Movie_Poster.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Rogue One: A Star Wars Story ",
+      "director": "Gareth Edwards ",
+      "rating": "PG-13",
+      "length": 133,
+      "infoUrl": "https://www.imdb.com/title/tt3748528/?ref_=ttls_li_i",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Rogue_One%2C_A_Star_Wars_Story_poster.png"
+    },
+    {
+      "id": 3,
+      "title": " Spider-Man: Homecoming ",
+      "director": "Jon Watts",
+      "rating": "PG-13",
+      "length": 133,
+      "infoUrl": "https://www.imdb.com/title/tt2250912/?ref_=ttls_li_tt",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg"
+    },
+    {
+      "title": "Transformers: Age of Extinction",
+      "director": "Michael Bay",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Transformers_Age_of_Extinction_Poster.jpeg",
+      "infoUrl": "https://www.imdb.com/title/tt2109248/",
+      "rating": "PG-13",
+      "length": "123546798",
+      "id": 4
+    },
+    {
+      "title": "PAW Patrol: The Movie",
+      "director": "Cal Brunker",
+      "rating": "G",
+      "length": "86",
+      "infoUrl": "https://www.imdb.com/title/tt11832046/?ref_=fn_al_tt_4",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/PAW_Patrol_The_Movie_poster.jpg",
+      "id": 5
+    }
+  ]
+}

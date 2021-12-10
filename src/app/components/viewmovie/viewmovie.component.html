@@ -1,0 +1,12 @@
+<div class="m-container">
+    <h3 class="m-title">{{currentMovie.title}}</h3>
+    <img [src]="currentMovie.imgUrl">
+    <div class="m-title">
+        <P>Rating: {{currentMovie.rating}} | Length: {{currentMovie.length}} min</P>
+        <a href="{{currentMovie.infoUrl}}">Additional Information</a>
+    </div>
+    <a routerLink="/updatemovie/{{currentMovie.id}}">
+        <button class="btn">Update</button>
+    </a>
+    <button class="btn" (click) ="deleteMovie(currentMovie.id)" >Delete</button>
+</div>

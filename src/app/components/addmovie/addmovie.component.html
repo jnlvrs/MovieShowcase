@@ -1,0 +1,29 @@
+<div class="movies">
+    <h3> Add a Movie</h3>
+    <form (ngSubmit)="addMovie()">
+        <label>Title: </label>
+        <input type="text" name="title" [(ngModel)]="newMovie.title">
+        <br>
+        <label>Director: </label>
+        <input type="text" name="director" [(ngModel)]="newMovie.director">
+        <br>
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating" [(ngModel)]="newMovie.rating">
+            <option value="G" selected>G</option>
+            <option value="PG">PG</option>
+            <option value="PG-13">PG-13</option>
+            <option value="R">R</option>
+        </select>
+        <br>
+        <label>Length: </label>
+        <input type="text" name="length" [(ngModel)]="newMovie.length">
+        <br>
+        <label>Link to Information </label>
+        <input type="text" placeholder="optional" name="infoUrl" [(ngModel)]="newMovie.infoUrl">
+        <br>
+        <label>Image link </label>
+        <input type="text" placeholder="optional" name="imgUrl" [(ngModel)]="newMovie.imgUrl">
+        <br>
+        <button class="btn" type="submit">Add Movie</button>
+    </form>
+</div>
